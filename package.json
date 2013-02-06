@@ -1,0 +1,16 @@
+{
+  "name": "collect-amd-specs",
+  "version": "0.0.1",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "underscore": "~1.4.3"
+  }
+}

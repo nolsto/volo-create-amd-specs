@@ -1,0 +1,3 @@
+module.exports = {
+    'collect-amd-specs': require('../index')
+};

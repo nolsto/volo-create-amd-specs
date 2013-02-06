@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"path": "~/Projects/npm/collect-amd-specs",
+			"file_exclude_patterns":
+			[
+				"*.sublime-workspace"
+			]
+		}
+	]
+}
