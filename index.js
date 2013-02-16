@@ -24,6 +24,12 @@ module.exports = {
 
     doc: fs.readFileSync(path.join(__dirname, 'doc.md'), 'utf8'),
 
+    validate: function (namedArgs, configPath) {
+        if (!configPath) {
+            return new Error('Please enter path to a requirejs config json');
+        }
+    },
+
     run: function (d, v, namedArgs, configPath, outputPath) {
         var file = path.resolve(path.join(v.path, configPath)),
             config = require(file),
