@@ -34,7 +34,7 @@ module.exports = {
         var file = path.resolve(path.join(v.path, configPath)),
             config = require(file),
             baseDir = path.resolve(path.join(path.dirname(file),
-                                             config.appDir,
+                                             // config.appDir,
                                              config.baseUrl)),
             specs = [],
             out = '';
