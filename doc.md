@@ -17,7 +17,3 @@ Using without output file:
     > Found 2 specs to collect:
     > app/spec/main_spec.js
     > app/util/common/spec/print_spec.js
-
-## Notes
-
-TODO
