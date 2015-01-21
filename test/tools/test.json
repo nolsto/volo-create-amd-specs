@@ -2,7 +2,6 @@
     "baseUrl": "../www/js/lib",
     "paths": {
         "app": "../app",
-        "turds": "../turds",
         "templates": "../../templates"
     }
 }
